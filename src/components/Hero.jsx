@@ -29,7 +29,7 @@ const Hero = () => {
         carRef.current,
         { x: "-35vw" },
         {
-          x: "35vw",
+          x: "50vw",
           ease: "none",
           scrollTrigger: {
             trigger: containerRef.current,
@@ -55,7 +55,7 @@ const Hero = () => {
     return () => ctx.revert();
   }, []);
 
-  const headline = "WELCOME ITZ FIZZ";
+  const headline = "WELCOME  ITZFIZZ";
 
   return (
     <section
